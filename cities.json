@@ -1,0 +1,334 @@
+[
+  {
+    "name": "Amsterdam",
+    "slug": "amsterdam",
+    "desc": "Famous for its canals, cycling culture and artistic heritage. Explore its museums and cozy cafés.",
+    "longDesc": "Welcome to Amsterdam, the enchanting capital of the Netherlands — a city where historic canals, colorful tulips, and vibrant culture meet modern innovation. Known as the \"Venice of the North\", Amsterdam offers travelers an unforgettable blend of old-world elegance and contemporary energy. Wander through picturesque canal streets, take a canal cruise, visit the Van Gogh Museum or Anne Frank House, and enjoy the freedom and creativity of this amazing city.",
+    "price": 90,
+    "oldPrice": 120,
+    "imgs": [
+      "https://cdn.pixabay.com/photo/2020/08/14/15/22/canal-5488271_1280.jpg",
+      "https://cdn.pixabay.com/photo/2021/08/21/01/52/amsterdam-centrum-6561624_1280.jpg"
+    ],
+    "video": [
+      "https://cdn.pixabay.com/video/2024/05/22/213096_large.mp4",
+      "https://cdn.pixabay.com/video/2019/10/05/27557-364570132_large.mp4",
+      "https://cdn.pixabay.com/video/2024/05/18/212404_large.mp4"
+    ],
+    "map": "https://maps.google.com/maps?q=amsterdam&t=&z=12&ie=UTF8&iwloc=&output=embed"
+  },
+  {
+    "name": "Baku",
+    "slug": "baku",
+    "desc": "The Pearl of the Caspian with modern skyline and ancient Old City.",
+    "longDesc": "Baku, the capital of Azerbaijan, is a fascinating mix of modern architecture and ancient history. Standing on the shores of the Caspian Sea, it dazzles visitors with futuristic skyscrapers like the Flame Towers alongside the ancient walls of the Old City (Icherisheher). Walk along the Baku Boulevard, visit the Heydar Aliyev Center, and enjoy traditional Azerbaijani cuisine in the city’s vibrant restaurants. Baku is a city of contrasts — where East meets West and the past dances with the future.",
+    "price": 50,
+    "oldPrice": 170,
+    "imgs": [
+      "https://cdn.pixabay.com/photo/2017/01/25/13/33/travel-2007903_1280.jpg",
+      "https://cdn.pixabay.com/photo/2017/01/21/12/48/maiden-tower-1997161_1280.jpg",
+      "https://cdn.pixabay.com/photo/2021/06/16/07/21/city-6340472_1280.jpg"
+    ],
+    "video": [
+      "https://cdn.pixabay.com/video/2024/12/21/248131_large.mp4",
+      "https://cdn.pixabay.com/video/2025/03/06/263014_large.mp4",
+      "https://cdn.pixabay.com/video/2025/01/13/252387_large.mp4"
+    ],
+    "map": "https://maps.google.com/maps?q=baku&t=&z=12&ie=UTF8&iwloc=&output=embed"
+  },
+  {
+    "name": "Bangkok",
+    "slug": "bangkok",
+    "desc": "Lively capital famous for temples and street food.",
+    "longDesc": "Bangkok, Thailand’s bustling capital, is a city of golden temples, vibrant markets, and unforgettable street food. From the majestic Grand Palace and Wat Pho’s Reclining Buddha to lively night bazaars and rooftop bars, every corner of Bangkok pulses with life. Visitors can cruise along the Chao Phraya River, savor spicy Thai dishes, and experience the perfect blend of tradition and modern energy that defines this incredible city.",
+    "price": 70,
+    "oldPrice": 110,
+    "imgs": [
+      "https://cdn.pixabay.com/photo/2016/10/22/00/04/bangkok-1759467_1280.jpg",
+      "https://cdn.pixabay.com/photo/2016/11/14/04/14/monks-1822569_1280.jpg",
+      "https://cdn.pixabay.com/photo/2017/09/27/15/30/thailand-2792412_1280.jpg"
+    ],
+    "video": [
+      "https://cdn.pixabay.com/video/2020/01/06/30952-383991415_large.mp4",
+      "https://cdn.pixabay.com/video/2019/12/08/29999-378309012_large.mp4",
+      "https://cdn.pixabay.com/video/2020/01/30/31780-388997470_large.mp4"
+    ],
+    "map": "https://maps.google.com/maps?q=bangkok&t=&z=12&ie=UTF8&iwloc=&output=embed"
+  },
+  {
+    "name": "Barcelona",
+    "slug": "barcelona",
+    "desc": "Gaudí’s masterpieces and Mediterranean beaches.",
+    "longDesc": "Barcelona, the jewel of Catalonia, captivates travelers with its Mediterranean beaches, Gaudí’s surreal architecture, and rich artistic soul. Wander through the Gothic Quarter’s narrow alleys, marvel at the Sagrada Família, or relax by the sea with tapas and sangria. The city’s energy is both creative and relaxed — a mix of art, sunlight, and sea breeze that makes Barcelona one of Europe’s most inspiring destinations.",
+    "price": 190,
+    "oldPrice": 230,
+    "imgs": [
+      "https://cdn.pixabay.com/photo/2018/12/29/14/11/barcelona-3901449_1280.jpg",
+      "https://cdn.pixabay.com/photo/2015/05/07/14/50/ship-756570_1280.jpg"
+    ],
+    "video": [
+      "https://cdn.pixabay.com/video/2019/11/18/29224-374487088_large.mp4",
+      "https://cdn.pixabay.com/video/2024/06/18/217179_large.mp4",
+      "https://cdn.pixabay.com/video/2016/08/14/4428-178783049_large.mp4"
+    ],
+    "map": "https://maps.google.com/maps?q=barcelona&t=&z=12&ie=UTF8&iwloc=&output=embed"
+  },
+  {
+    "name": "Beijing",
+    "slug": "beijing",
+    "desc": "Home to the Great Wall and the Forbidden City.",
+    "longDesc": "Beijing, China’s historic capital, is a living museum of dynasties, culture, and innovation. Explore the awe-inspiring Forbidden City, stand in the vastness of Tiananmen Square, and take an unforgettable trip to the Great Wall. Between ancient temples and sleek skyscrapers, Beijing perfectly balances tradition and progress, making it an essential stop for history enthusiasts and modern explorers alike.",
+    "price": 80,
+    "oldPrice": 100,
+    "imgs": [
+      "https://www.thechinajourney.com/wp-content/uploads/2024/09/beijing-photo-for-pc-banner-1024x682.webp",
+      "https://res.klook.com/image/upload/fl_lossy.progressive,q_60/Mobile/City/mto5pdt9gm6p1hsiedhz.jpg",
+      "https://www.thechinajourney.com/wp-content/uploads/2025/01/Shichahai.webp"
+    ],
+    "video": [
+      "https://cdn.pixabay.com/video/2015/12/04/1542-148219696_medium.mp4",
+      "https://cdn.pixabay.com/video/2024/09/29/233870_large.mp4"
+    ],
+    "map": "https://maps.google.com/maps?q=beijing&t=&z=12&ie=UTF8&iwloc=&output=embed"
+  },
+  {
+    "name": "Berlin",
+    "slug": "berlin",
+    "desc": "Historic wall and dynamic art scene.",
+    "longDesc": "Berlin is a city that tells stories — of resilience, creativity, and freedom. From the remnants of the Berlin Wall to the vibrant art scene of East Side Gallery, it’s a hub for thinkers and dreamers. Discover world-class museums on Museum Island, enjoy the city’s famous nightlife, and feel the spirit of a metropolis that never stops reinventing itself. Berlin is not just a city to visit — it’s one to experience deeply.",
+    "price": 160,
+    "oldPrice": 200,
+    "imgs": [
+      "https://cdn.pixabay.com/photo/2018/12/01/00/10/blue-hour-3848856_1280.jpg",
+      "https://cdn.pixabay.com/photo/2020/04/28/12/11/city-5104205_1280.jpg",
+      "https://cdn.pixabay.com/photo/2023/02/05/19/14/bridge-7770337_1280.jpg"
+    ],
+    "video": [
+      "https://cdn.pixabay.com/video/2020/08/14/47179-450995679_large.mp4",
+      "https://cdn.pixabay.com/video/2018/04/16/15641-265858382_large.mp4"
+    ],
+    "map": "https://maps.google.com/maps?q=berlin&t=&z=12&ie=UTF8&iwloc=&output=embed"
+  },
+  {
+    "name": "Dubai",
+    "slug": "dubai",
+    "desc": "Skyscrapers, luxury shopping, and desert adventures.",
+    "longDesc": "Dubai is the city of dreams, rising from the desert into a skyline of innovation and luxury. Visit the world’s tallest building, Burj Khalifa, shop in grand malls, or experience the thrill of desert safaris. From pristine beaches to futuristic architecture, Dubai offers endless adventure and elegance — a shining oasis where tradition meets technology in spectacular fashion.",
+    "price": 180,
+    "oldPrice": 250,
+    "imgs": [
+      "https://cdn.pixabay.com/photo/2016/02/28/20/23/dubai-1227538_1280.jpg",
+      "https://cdn.pixabay.com/photo/2019/03/09/21/30/downtown-4045037_1280.jpg",
+      "https://cdn.pixabay.com/photo/2019/03/09/21/30/downtown-4045035_1280.jpg"
+    ],
+    "video": [
+      "https://cdn.pixabay.com/video/2020/02/05/31956-389724705_large.mp4",
+      "https://cdn.pixabay.com/video/2023/05/15/163160-827112938_large.mp4"
+    ],
+    "map": "https://maps.google.com/maps?q=dubai&t=&z=12&ie=UTF8&iwloc=&output=embed"
+  },
+  {
+    "name": "Istanbul",
+    "slug": "istanbul",
+    "desc": "Where Europe meets Asia, rich in history and culture.",
+    "longDesc": "Istanbul, where Europe and Asia meet, is a city woven with layers of history, culture, and beauty. Visit the majestic Hagia Sophia, marvel at the Blue Mosque, and get lost in the vibrant Grand Bazaar. The city’s skyline glows over the Bosphorus as ferries glide between continents. With its rich cuisine, warm hospitality, and timeless atmosphere, Istanbul is a living crossroads of civilizations.",
+    "price": 85,
+    "oldPrice": 170,
+    "imgs": [
+      "https://cdn.pixabay.com/photo/2020/05/21/20/00/istanbul-5202424_1280.jpg",
+      "https://cdn.pixabay.com/photo/2017/11/02/19/37/istanbul-2912249_1280.jpg",
+      "https://cdn.pixabay.com/photo/2015/08/31/07/30/istanbul-915076_1280.jpg"
+    ],
+    "video": [
+      "https://cdn.pixabay.com/video/2019/06/22/24590-344099880_large.mp4",
+      "https://cdn.pixabay.com/video/2017/07/14/10666-226156893_large.mp4",
+      "https://cdn.pixabay.com/video/2020/07/20/45118-441300921_large.mp4"
+    ],
+    "map": "https://maps.google.com/maps?q=istanbul&t=&z=12&ie=UTF8&iwloc=&output=embed"
+  },
+  {
+    "name": "Lisbon",
+    "slug": "lisbon",
+    "desc": "Colorful streets and Atlantic Ocean views.",
+    "longDesc": "Lisbon, Portugal’s radiant capital, is a city of light, music, and sea breezes. Ride the iconic yellow trams through pastel-colored streets, explore the historic Alfama district, and take in panoramic views from its famous miradouros. From Fado melodies to oceanfront cafés, Lisbon charms visitors with a blend of nostalgia, warmth, and endless sunshine.",
+    "price": 90,
+    "oldPrice": 140,
+    "imgs": [
+      "https://cdn.pixabay.com/photo/2020/02/05/09/31/city-4820579_1280.jpg",
+      "https://cdn.pixabay.com/photo/2019/08/02/12/51/tram-4379656_1280.jpg",
+      "https://cdn.pixabay.com/photo/2016/11/01/22/26/port-1789875_1280.jpg"
+    ],
+    "video": [
+      "https://cdn.pixabay.com/video/2023/11/01/187403-880363247_large.mp4",
+      "https://cdn.pixabay.com/video/2023/05/21/163969-828839964_large.mp4"
+    ],
+    "map": "https://maps.google.com/maps?q=lisbon&t=&z=12&ie=UTF8&iwloc=&output=embed"
+  },
+  {
+    "name": "London",
+    "slug": "london",
+    "desc": "Iconic landmarks, diverse culture, and global influence.",
+    "longDesc": "London is a global icon — a city that blends royal tradition, cultural diversity, and modern sophistication. Discover the Tower of London, Buckingham Palace, and Big Ben, then explore creative districts like Camden and Shoreditch. With world-class museums, theatre, fashion, and food, London is a place where every street tells a story and every moment feels alive.",
+    "price": 200,
+    "oldPrice": 280,
+    "imgs": [
+      "https://cdn.pixabay.com/photo/2021/08/12/05/19/cathedral-6539937_1280.jpg",
+      "https://cdn.pixabay.com/photo/2017/02/22/17/05/london-eye-2089952_1280.jpg",
+      "https://cdn.pixabay.com/photo/2014/01/26/19/15/london-eye-252537_1280.jpg"
+    ],
+    "video": [
+      "https://cdn.pixabay.com/video/2024/02/28/202368-918049003_large.mp4",
+      "https://cdn.pixabay.com/video/2019/09/19/27023-361798579_large.mp4",
+      "https://cdn.pixabay.com/video/2022/12/20/143615-784129606_large.mp4"
+    ],
+    "map": "https://maps.google.com/maps?q=london&t=&z=12&ie=UTF8&iwloc=&output=embed"
+  },
+  {
+    "name": "Moscow",
+    "slug": "moscow",
+    "desc": "Russia’s capital, known for the Kremlin and Red Square.",
+    "longDesc": "Moscow, the grand capital of Russia, enchants with its monumental beauty and historical depth. Stroll across the Red Square, gaze at the colorful domes of St. Basil’s Cathedral, and experience the grandeur of the Kremlin. From elegant metro stations to snowy boulevards, Moscow offers a powerful mix of art, history, and cultural pride.",
+    "price": 60,
+    "oldPrice": 100,
+    "imgs": [
+      "https://cdn.pixabay.com/photo/2016/09/22/16/09/moscow-1687591_1280.jpg",
+      "https://cdn.pixabay.com/photo/2024/02/12/18/37/red-square-8569243_1280.jpg",
+      "https://cdn.pixabay.com/photo/2019/12/20/21/00/moscow-4709274_1280.jpg"
+    ],
+    "video": [
+      "https://cdn.pixabay.com/video/2020/06/27/43252-435970549_large.mp4",
+      "https://cdn.pixabay.com/video/2025/07/14/291430_large.mp4",
+      "https://cdn.pixabay.com/video/2020/07/09/44263-438612336_large.mp4"
+    ],
+    "map": "https://maps.google.com/maps?q=moscow&t=&z=12&ie=UTF8&iwloc=&output=embed"
+  },
+  {
+    "name": "Paris",
+    "slug": "paris",
+    "desc": "The City of Light, celebrated for romance, fashion, and the Eiffel Tower.",
+    "longDesc": "Paris, the City of Light, embodies romance, art, and timeless beauty. Wander along the Seine River, admire the Eiffel Tower, and explore world-famous museums like the Louvre and Musée d’Orsay. From cozy cafés and charming streets to haute couture and gourmet cuisine, Paris invites visitors to fall in love — not just with the city, but with life itself.",
+    "price": 210,
+    "oldPrice": 300,
+    "imgs": [
+      "https://cdn.pixabay.com/photo/2017/01/03/22/00/tower-1950742_1280.jpg",
+      "https://cdn.pixabay.com/photo/2014/10/15/19/22/notre-dame-490223_1280.jpg",
+      "https://cdn.pixabay.com/photo/2019/06/15/14/36/the-seine-river-4275721_1280.jpg"
+    ],
+    "video": [
+      "https://cdn.pixabay.com/video/2024/06/05/215421_large.mp4",
+      "https://cdn.pixabay.com/video/2020/02/08/32115-390497872_large.mp4"
+    ],
+    "map": "https://maps.google.com/maps?q=paris&t=&z=12&ie=UTF8&iwloc=&output=embed"
+  },
+  {
+    "name": "Prague",
+    "slug": "prague",
+    "desc": "A fairytale city with castles, bridges, and medieval charm.",
+    "longDesc": "Prague feels like a fairytale brought to life. With its Gothic spires, medieval bridges, and charming squares, the Czech capital is one of Europe’s most magical cities. Explore Prague Castle, cross the Charles Bridge at sunrise, and enjoy the city’s rich music and café culture. Every corner of Prague whispers history and wonder.",
+    "price": 100,
+    "oldPrice": 180,
+    "imgs": [
+      "https://cdn.pixabay.com/photo/2017/12/10/17/40/prague-3010407_1280.jpg",
+      "https://cdn.pixabay.com/photo/2020/07/14/20/25/prague-5405649_1280.jpg",
+      "https://cdn.pixabay.com/photo/2016/01/03/18/00/prague-1119791_1280.jpg"
+    ],
+    "video": [
+      "https://cdn.pixabay.com/video/2020/09/20/50456-460509258_large.mp4",
+      "https://cdn.pixabay.com/video/2019/05/14/23670-337232359_large.mp4"
+    ],
+    "map": "https://maps.google.com/maps?q=prague&t=&z=13&ie=UTF8&iwloc=&output=embed"
+  },
+  {
+    "name": "Rome",
+    "slug": "rome",
+    "desc": "Ancient ruins, Renaissance art, and Italian cuisine.",
+    "longDesc": "Rome is a living museum — a timeless city where ancient ruins and Renaissance art coexist in harmony. Walk through the Colosseum, visit Vatican City, and savor authentic Italian cuisine in lively piazzas. From history to food to romance, Rome offers the essence of la dolce vita at every turn.",
+    "price": 140,
+    "oldPrice": 190,
+    "imgs": [
+      "https://cdn.pixabay.com/photo/2025/03/31/21/30/italy-9505450_1280.jpg",
+      "https://cdn.pixabay.com/photo/2022/06/05/20/24/rome-7244828_1280.jpg",
+      "https://cdn.pixabay.com/photo/2016/10/25/09/16/rome-1768206_1280.jpg"
+    ],
+    "video": [
+      "https://cdn.pixabay.com/video/2022/10/20/135736-764361732_large.mp4",
+      "https://cdn.pixabay.com/video/2022/10/30/137089-766326074_large.mp4",
+      "https://cdn.pixabay.com/video/2022/08/12/127669-739144713_large.mp4"
+    ],
+    "map": "https://maps.google.com/maps?q=rome&t=&z=12&ie=UTF8&iwloc=&output=embed"
+  },
+  {
+    "name": "Seoul",
+    "slug": "seoul",
+    "desc": "A high-tech city with deep traditions and palaces.",
+    "longDesc": "Seoul, the heart of South Korea, blends ancient palaces with neon-lit skyscrapers. Wander through Gyeongbokgung Palace, shop in Myeongdong, and experience the energy of K-pop and street fashion. The city’s balance of heritage, innovation, and hospitality makes it a destination full of life and surprises.",
+    "price": 290,
+    "oldPrice": 350,
+    "imgs": [
+      "https://plus.unsplash.com/premium_photo-1661886333708-877148b43ae1?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2VvdWx8ZW58MHx8MHx8fDA%3D",
+      "https://moving-jack.com/wp-content/uploads/2024/12/seoul-street-traffic-3-Copyright-www.moving-jack.com-4.jpg.webp",
+      "https://cdn.concreteplayground.com/content/uploads/2023/12/City-of-Seoul_CJNattanai_Getty-Images-1.jpg"
+    ],
+    "video": [
+      "https://cdn.pixabay.com/video/2019/03/13/21985-323496013_large.mp4",
+      "https://cdn.pixabay.com/video/2019/05/03/23258-334228230_large.mp4"
+    ],
+    "map": "https://maps.google.com/maps?q=seoul&t=&z=12&ie=UTF8&iwloc=&output=embed"
+  },
+  {
+    "name": "Tokyo",
+    "slug": "tokyo",
+    "desc": "A futuristic metropolis with unique culture and cuisine.",
+    "longDesc": "Tokyo is a dazzling blend of the futuristic and the traditional. From the glowing streets of Shibuya to serene temples in Asakusa, it’s a city that never ceases to amaze. Savor world-class sushi, experience cutting-edge technology, and explore cultural treasures in every district. Tokyo is fast-paced yet deeply soulful — a journey through innovation and tradition.",
+    "price": 270,
+    "oldPrice": 320,
+    "imgs": [
+      "https://cdn.pixabay.com/photo/2025/05/16/09/16/imperial-palace-tokyo-9603413_1280.jpg",
+      "https://cdn.pixabay.com/photo/2015/03/09/18/23/city-666107_1280.jpg",
+      "https://cdn.pixabay.com/photo/2022/01/24/00/46/tokyo-6962253_1280.jpg"
+    ],
+    "video": [
+      "https://cdn.pixabay.com/video/2022/11/04/137688-767484567_large.mp4",
+      "https://cdn.pixabay.com/video/2024/11/14/241403_large.mp4",
+      "https://cdn.pixabay.com/video/2024/11/24/243075_large.mp4"
+    ],
+    "map": "https://maps.google.com/maps?q=tokyo&t=&z=12&ie=UTF8&iwloc=&output=embed"
+  },
+  {
+    "name": "Toronto",
+    "slug": "toronto",
+    "desc": "A multicultural hub with the iconic CN Tower.",
+    "longDesc": "Toronto, largest city of Canada, is a mosaic of cultures, cuisines, and creativity. Visit the CN Tower for breathtaking views, stroll along the waterfront, or explore lively neighborhoods like Kensington Market and Distillery District. Friendliness and diversity of Toronto make it a welcoming destination for travelers from around the world.",
+    "price": 70,
+    "oldPrice": 120,
+    "imgs": [
+      "https://cdn.pixabay.com/photo/2022/04/18/02/24/architecture-7139263_640.jpg",
+      "https://www.toronto.ca/wp-content/uploads/2025/05/8efb-home-skyline-1500x700.jpg",
+      "https://lh4.googleusercontent.com/i7q7nV9wz7PsfgP9EGzcs1rraDCY-Wz527eiWiDpPL3PUHGlnCU-md0zdrbvTvrofmkXxvFpJtWUW7Q1RJmTPCcNW38Gcc7gF-4gCKb4JIlK0dFLfCPTY8DWnQDhiBYjDKcA5fkaLxicl3WKLOGf"
+    ],
+    "video": [
+      "https://cdn.pixabay.com/video/2020/06/22/42825-433896258_large.mp4",
+      "https://cdn.pixabay.com/video/2023/07/26/173383-849308906_large.mp4"
+    ],
+    "map": "https://maps.google.com/maps?q=toronto&t=&z=12&ie=UTF8&iwloc=&output=embed"
+  },
+  {
+    "name": "Venice",
+    "slug": "venice",
+    "desc": "A romantic city of canals, gondolas, and history.",
+    "longDesc": "Venice, Italy’s floating masterpiece, is one of the most romantic cities in the world. Drift through its canals on a gondola, admire St. Mark’s Basilica, and get lost in the maze of ancient streets. With sunsets over the lagoon and reflections dancing on the water, Venice is pure magic — a place where time stands still and beauty reigns supreme.",
+    "price": 200,
+    "oldPrice": 340,
+    "imgs": [
+      "https://cdn.pixabay.com/photo/2018/02/26/14/22/venice-3183168_1280.jpg",
+      "https://cdn.pixabay.com/photo/2019/12/18/16/34/venice-4704342_1280.jpg",
+      "https://media.cntraveller.com/photos/665ee92a9421aab48dea082c/16:9/w_5760,h_3240,c_limit/venice-GettyImages-941234062.jpeg"
+    ],
+    "video": [
+      "https://cdn.pixabay.com/video/2022/08/24/128984-742902102_large.mp4",
+      "https://cdn.pixabay.com/video/2021/08/28/86633-594416672_large.mp4",
+      "https://cdn.pixabay.com/video/2019/10/23/28203-368511940_large.mp4"
+    ],
+    "map": "https://maps.google.com/maps?q=venice&t=&z=12&ie=UTF8&iwloc=&output=embed"
+  }
+]

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Smart Travel — Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="smart_logo.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">Smart<span> Travel </span>&#9992;</div>
+      <nav class="navbar">
+        <a href="#packages">Packages</a>
+        <a href="#services">Services</a>
+        <a href="#cuisine">Cuisine</a>
+        <a href="#footer">Contact Us</a>
+      </nav>
+
+      <div class="controls">
+        <input id="search-input" placeholder="Search cities..." />
+        <select id="sort-select" aria-label="Sort">
+          <option value="">Sort</option>
+          <option value="price-asc">Price ↑</option>
+          <option value="price-desc">Price ↓</option>
+          <option value="name-asc">Name A→Z</option>
+          <option value="name-desc">Name Z→A</option>
+        </select>
+
+        <div class="icons">
+          <i class="fas fa-heart" id="fav-toggle" title="Show favourites"></i>
+          <div class="basket-icon" id="basket-btn" title="Open basket">
+            <i class="fas fa-shopping-basket"></i>
+            <span id="basket-count">0</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="packages" id="packages">
+        <h2 class="section-title">Popular <span>Destinations</span></h2>
+        <div class="cards-container"></div>
+      </section>
+    </main>
+    <main>
+      <section class="services" id="services">
+        <h2 class="section-title">Professional <span>Services</span></h2>
+        <div class="cards-container"></div>
+        <div class="box-container">
+          <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>
+              Find the best stays at great prices without compromising comfort.
+            </p>
+          </div>
+          <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food & drinks</h3>
+            <p>
+              Enjoy delicious local and international cuisines on every trip.
+            </p>
+          </div>
+          <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safety guide</h3>
+            <p>
+              Travel confidently with reliable tips and trusted safety
+              resources.
+            </p>
+          </div>
+          <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around the world</h3>
+            <p>Discover new destinations and cultures across the globe.</p>
+          </div>
+          <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>Save time with modern routes and efficient travel options.</p>
+          </div>
+          <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>
+              Experience exciting activities and unforgettable memories
+              everywhere you go.
+            </p>
+          </div>
+          <div class="box">
+            <i class="fas fa-campground"></i>
+            <h3>eco camping</h3>
+            <p>
+              Connect with nature through sustainable camping experiences in
+              unique locations.
+            </p>
+          </div>
+          <div class="box">
+            <i class="fas fa-ship"></i>
+            <h3>cruise trips</h3>
+            <p>
+              Enjoy luxury cruises with breathtaking sea views and world-class
+              service.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <main>
+      <section class="cuisine" id="cuisine">
+        <h2 class="section-title">Delicious <span>Cuisine</span></h2>
+
+        <div class="cuisine-item">
+          <img src="/cuisine/pasta.jpg" alt="Italian Pasta" />
+          <div class="cuisine-description">
+            <h3>Italian Pasta</h3>
+            <p>
+              Delicious handmade pasta with fresh ingredients. Perfectly cooked
+              al dente and served with authentic Italian sauce.
+            </p>
+          </div>
+        </div>
+
+        <div class="cuisine-item">
+          <img src="/cuisine/sushi.jpg" alt="Japanese Sushi" />
+          <div class="cuisine-description">
+            <h3>Japanese Sushi</h3>
+            <p>
+              Authentic sushi rolls made by expert chefs using the freshest
+              seafood. Experience the taste of Japan in every bite.
+            </p>
+          </div>
+        </div>
+
+        <div class="cuisine-item">
+          <img src="/cuisine/tacos.jpg" alt="Mexican Tacos" />
+          <div class="cuisine-description">
+            <h3>Mexican Tacos</h3>
+            <p>
+              Spicy and flavorful tacos with fresh toppings and homemade
+              tortillas. A true Mexican street food experience.
+            </p>
+          </div>
+        </div>
+
+        <div class="cuisine-item">
+          <img src="/cuisine/fish_chips.jpg" alt="Fish and Chips" />
+          <div class="cuisine-description">
+            <h3>Fish and Chips</h3>
+            <p>
+              Classic British dish of crispy fried fish served with golden
+              fries, malt vinegar, and tartar sauce.
+            </p>
+          </div>
+        </div>
+
+        <div class="cuisine-item">
+          <img src="/cuisine/croissant.jpg" alt="Croissant" />
+          <div class="cuisine-description">
+            <h3>French Croissant</h3>
+            <p>
+              Buttery and flaky French croissant, perfect for breakfast with
+              coffee or hot chocolate.
+            </p>
+          </div>
+        </div>
+
+        <div class="cuisine-item">
+          <img src="/cuisine/borscht.jpg" alt="Borscht" />
+          <div class="cuisine-description">
+            <h3>Russian Borscht</h3>
+            <p>
+              Traditional Russian beet soup with vegetables, often served with
+              sour cream and rye bread.
+            </p>
+          </div>
+        </div>
+
+        <div class="cuisine-item">
+          <img src="/cuisine/shawarma.jpg" alt="Shawarma" />
+          <div class="cuisine-description">
+            <h3>Dubai Shawarma</h3>
+            <p>
+              Spiced grilled meat rolled in flatbread with garlic sauce,
+              pickles, and fresh vegetables.
+            </p>
+          </div>
+        </div>
+
+        <div class="cuisine-item">
+          <img src="/cuisine/plov.jpg" alt="Plov" />
+          <div class="cuisine-description">
+            <h3>Plov</h3>
+            <p>
+              Traditional Azerbaijani rice dish with saffron, meat, vegetables,
+              and dried fruits, rich in flavor.
+            </p>
+          </div>
+        </div>
+
+        <div class="cuisine-item">
+          <img src="/cuisine/kebap.jpg" alt="Kebap" />
+          <div class="cuisine-description">
+            <h3>Kebap</h3>
+            <p>
+              Juicy Turkish kebabs grilled to perfection, served with fresh
+              bread, vegetables, and spices.
+            </p>
+          </div>
+        </div>
+
+        <div class="cuisine-item">
+          <img src="/cuisine/bacalhau.webp" alt="Bacalhau" />
+          <div class="cuisine-description">
+            <h3>Lisbon - Bacalhau</h3>
+            <p>
+              Portuguese salted codfish dish, prepared in countless ways with
+              potatoes, olive oil, and herbs.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="quiz" id="quiz">
+      <h2 class="section-title">Find Your Ideal City</h2>
+      <div class="quiz-container">
+        <div id="quiz-question">Loading question...</div>
+        <div id="quiz-options"></div>
+        <button id="next-btn">Next</button>
+      </div>
+      <div id="quiz-result" class="quiz-result"></div>
+    </section>
+
+    <aside id="basket-panel" class="basket-panel" aria-hidden="true">
+      <div class="basket-header">
+        <h3>Your Basket</h3>
+        <button id="close-basket" aria-label="Close basket">✖</button>
+      </div>
+      <ul id="basket-list"></ul>
+      <div class="basket-footer">
+        <div class="total">Total: $<span id="basket-total">0.00</span></div>
+        <div class="basket-actions">
+          <button id="book-now-btn" class="primary">Book Now</button>
+          <button id="clear-basket">Clear</button>
+        </div>
+      </div>
+
+      <form id="booking-form" class="hidden">
+        <h4>Enter Your Details</h4>
+        <input type="text" id="user-name" placeholder="* Full Name" required />
+        <input type="email" id="user-email" placeholder="* E-mail" required />
+        <input
+          type="tel"
+          id="user-phone"
+          placeholder="* Phone Number"
+          required
+        />
+        <input
+          type="text"
+          id="user-card"
+          placeholder="* Card Number"
+          required
+        />
+        <button type="submit" class="primary">Confirm Booking</button>
+      </form>
+    </aside>
+
+    <aside id="fav-panel" class="basket-panel" aria-hidden="true">
+      <div class="basket-header">
+        <h3>Your Favourites</h3>
+        <button id="close-fav" aria-label="Close panel">✖</button>
+      </div>
+      <ul id="fav-list"></ul>
+    </aside>
+
+    <div id="quick-modal" class="modal hidden" aria-hidden="true">
+      <div class="modal-content">
+        <button id="close-quick" class="close">✖</button>
+        <h3 id="quick-title"></h3>
+        <p id="quick-desc"></p>
+      </div>
+    </div>
+
+    <footer class="site-footer" id="footer">
+      <div class="footer-top">
+        <div class="footer-column">
+          <h3>About Smart Travel</h3>
+          <p>
+            Smart Travel helps you explore the world's most beautiful cities and
+            cuisines. Plan your next adventure with us!
+          </p>
+        </div>
+        <div class="footer-column">
+          <h3>Contact Us</h3>
+          <p>Email: info@smarttravel.com</p>
+          <p>Phone: +994 12 345 67 89</p>
+          <p>Address: 123 Travel St, Baku, Azerbaijan</p>
+        </div>
+        <div class="footer-column">
+          <h3>Follow Us</h3>
+          <div class="footer-social">
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2025 Smart Travel. All Rights Reserved. |
+        <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+      </div>
+    </footer>
+  </body>
+</html>

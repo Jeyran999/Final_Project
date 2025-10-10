@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    to top,
+    #7b2cbf,
+    #c2e9fb
+  ); 
+}
+
+#starCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.welcome-box {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(20px);
+  border-radius: 25px;
+  padding: 60px;
+
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s ease;
+}
+
+.welcome-box:hover {
+  transform: scale(1.03);
+}
+
+.welcome-box h1 {
+  font-family: "Urbanist", sans-serif;
+  letter-spacing: 2px;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, #7b2cbf, #f368e0, #59549b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; 
+  color: transparent;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.welcome-box p {
+  font-family: "Urbanist", sans-serif;
+  color: #73526f;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  opacity: 0.9;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+
+.btn-explore {
+  display: inline-block;
+  padding: 18px 50px;
+  font-size: 1.2rem;
+  color: #fff;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  text-decoration: none;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.btn-explore:hover {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 15px 30px rgba(255, 255, 255, 0.25);
+  transform: scale(1.05);
+}
+
+/* ------- RESPONSIVE DESIGN ------- */
+
+@media screen and (max-width: 992px) {
+  .welcome-box {
+    padding: 45px;
+  }
+
+  .welcome-box h1 {
+    font-size: 2.3rem;
+  }
+
+  .welcome-box p {
+    font-size: 1.05rem;
+  }
+
+  .btn-explore {
+    padding: 15px 40px;
+    font-size: 1.05rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 0 10px;
+  }
+
+  .welcome-box {
+    padding: 30px 20px;
+    border-radius: 18px;
+  }
+
+  .welcome-box h1 {
+    font-size: 1.8rem;
+  }
+
+  .welcome-box p {
+    font-size: 0.95rem;
+    margin-bottom: 25px;
+  }
+
+  .btn-explore {
+    padding: 12px 35px;
+    font-size: 0.95rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .welcome-box h1 {
+    font-size: 1.5rem;
+  }
+
+  .welcome-box p {
+    font-size: 0.9rem;
+  }
+
+  .btn-explore {
+    padding: 10px 28px;
+    font-size: 0.85rem;
+  }
+}

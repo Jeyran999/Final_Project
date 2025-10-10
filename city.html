@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Smart Travel — City</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="smart_logo.png">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script defer src="city.js"></script>
+  </head>
+  <body>
+    <header class="city-header">
+      <a href="index.html" class="back"
+        ><i class="fas fa-arrow-left"></i> Back</a
+      >
+      <div class="city-actions">
+        <div id="city-basket" class="city-basket">
+          <i class="fas fa-shopping-basket"></i>
+          <span id="city-basket-count">0</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="city-main">
+      <section class="hero">
+        <div class="hero-left">
+          <h1 id="city-name"></h1>
+          <p id="city-longdesc"></p>
+          <div class="price-row">
+            <div class="price" id="city-price"></div>
+            <button id="city-add" class="primary">Add to Basket</button>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="slider" id="media-slider"></div>
+          <div class="slider-controls" id="slider-controls"></div>
+        </div>
+      </section>
+
+      <section class="map-section">
+        <h3>Map</h3>
+        <iframe
+          id="city-map"
+          width="100%"
+          height="420"
+          style="border: 0"
+          allowfullscreen=""
+        ></iframe>
+      </section>
+    </main>
+  </body>
+</html>
