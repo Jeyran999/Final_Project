@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body,
 html {
   width: 100%;
@@ -13,11 +12,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(
-    to top,
-    #7b2cbf,
-    #c2e9fb
-  ); 
+  background-image: url(https://i.pinimg.com/1200x/30/a4/a9/30a4a99d01feea27088d6fa609fb9c35.jpg);
 }
 
 #starCanvas {
@@ -34,7 +29,7 @@ html {
   z-index: 2;
   text-align: center;
   background: rgba(255, 255, 255, 0.12);
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(1px);
   border-radius: 25px;
   padding: 60px;
 
@@ -51,17 +46,15 @@ html {
   letter-spacing: 2px;
   font-size: 3rem;
   margin-bottom: 20px;
-  background: linear-gradient(90deg, #7b2cbf, #f368e0, #59549b);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text; 
-  color: transparent;
+  background-color: rgb(101, 73, 203);
+  color: white;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
 
 .welcome-box p {
   font-family: "Urbanist", sans-serif;
   color: #73526f;
+  background-color: white;
   font-size: 1.2rem;
   margin-bottom: 40px;
   opacity: 0.9;
@@ -72,13 +65,13 @@ html {
   display: inline-block;
   padding: 18px 50px;
   font-size: 1.2rem;
-  color: #fff;
+  color: rgb(126, 105, 202);
   border-radius: 50px;
-  border: 2px solid #fff;
+  border: 2px solid rgb(101, 73, 203);
   text-decoration: none;
   font-weight: bold;
   background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(12px);
+  backdrop-filter: blur(20px);
   transition: all 0.3s ease;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }

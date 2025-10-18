@@ -13,11 +13,20 @@ const closeFav = document.getElementById("close-fav");
 const favList = document.getElementById("fav-list");
 const bookNowBtn = document.getElementById("book-now-btn");
 const bookingForm = document.getElementById("booking-form");
-
+let videoBtn = document.querySelectorAll(".vid-btn");
 let cities = [];
 let filtered = [];
 let basket = JSON.parse(localStorage.getItem("st_basket") || "[]");
 let favs = new Set(JSON.parse(localStorage.getItem("st_favs") || "[]"));
+
+videoBtn.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    document.querySelector(".controls .active").classList.remove("active");
+    btn.classList.add("active");
+    let src = btn.getAttribute("data-src");
+    document.querySelector("#video-slider").src = src;
+  });
+});
 
 function fetchCities() {
   fetch("cities.json")
