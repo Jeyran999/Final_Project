@@ -19,14 +19,27 @@ let filtered = [];
 let basket = JSON.parse(localStorage.getItem("st_basket") || "[]");
 let favs = new Set(JSON.parse(localStorage.getItem("st_favs") || "[]"));
 
-videoBtn.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    document.querySelector(".controls .active").classList.remove("active");
-    btn.classList.add("active");
-    let src = btn.getAttribute("data-src");
-    document.querySelector("#video-slider").src = src;
-  });
-});
+const videoBtns = document.querySelectorAll(".vid-btn");
+const videoSlider = document.querySelector("#video-slider");
+let index = 0;
+
+function changeVideo() {
+  document.querySelector(".controls .active").classList.remove("active");
+
+  videoBtns[index].classList.add("active");
+  const src = videoBtns[index].getAttribute("data-src");
+  videoSlider.src = src;
+
+  index++;
+  if (index >= videoBtns.length) {
+    index = 0;
+  }
+}
+
+setInterval(changeVideo, 5000);
+
+changeVideo();
+
 
 function fetchCities() {
   fetch("cities.json")
@@ -77,7 +90,7 @@ const cityData = {
   "Paris": { img: "https://cdn.pixabay.com/photo/2017/01/03/22/00/tower-1950742_1280.jpg", desc: "Romantic Paris with Eiffel Tower and museums." },
   "Moscow": { img: "https://cdn.pixabay.com/photo/2016/09/22/16/09/moscow-1687591_1280.jpg", desc: "Historic Moscow with Red Square and Kremlin." },
   "Dubai": { img: "https://cdn.pixabay.com/photo/2016/02/28/20/23/dubai-1227538_1280.jpg", desc: "Modern Dubai with skyscrapers and desert adventure." },
-  "Baku": { img: "https://cdn.pixabay.com/photo/2017/01/25/13/33/travel-2007903_1280.jpg", desc: "Azerbaijani Baku with Caspian views and Flame Towers." },
+  "Baku": { img: "https://emerging-europe.com/wp-content/uploads/2018/01/bigstock-Flame-Towers-In-Baku-178967398.jpg", desc: "Azerbaijani Baku with Caspian views and Flame Towers." },
   "Istanbul": { img: "https://cdn.pixabay.com/photo/2020/05/21/20/00/istanbul-5202424_1280.jpg", desc: "Cultural Istanbul bridging Europe & Asia." },
   "Tokyo": { img: "https://cdn.pixabay.com/photo/2025/05/16/09/16/imperial-palace-tokyo-9603413_1280.jpg", desc: "Tokyo's modern & traditional mix of city life." },
   "Berlin": { img: "https://cdn.pixabay.com/photo/2018/12/01/00/10/blue-hour-3848856_1280.jpg", desc: "Berlin's art, history, and nightlife combined." },
@@ -87,7 +100,7 @@ const cityData = {
   "Vienna": { img: "https://cdn.pixabay.com/photo/2017/07/07/11/39/palm-house-2481208_1280.jpg", desc: "Vienna’s classical music and grand palaces." },
   "Prague": { img: "https://cdn.pixabay.com/photo/2017/12/10/17/40/prague-3010407_1280.jpg", desc: "Prague with its beautiful old town and bridges." },
   "Lisbon": { img: "https://cdn.pixabay.com/photo/2020/02/05/09/31/city-4820579_1280.jpg", desc: "Lisbon’s scenic hills and historic trams." },
-  "Bangkok": { img: "https://cdn.pixabay.com/photo/2016/10/22/00/04/bangkok-1759467_1280.jpg", desc: "Bangkok with vibrant street food and temples." },
+  "Bangkok": { img: "https://gawao.com/wp-content/uploads/2024/03/two-auto-rickshaw-on-the-street-1-scaled.jpg", desc: "Bangkok with vibrant street food and temples." },
   "Singapore": { img: "https://cdn.pixabay.com/photo/2017/07/31/06/20/singapore-2556628_1280.jpg", desc: "Modern Singapore with gardens and city skyline." },
   "Seoul": { img: "https://plus.unsplash.com/premium_photo-1661886333708-877148b43ae1?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2VvdWx8ZW58MHx8MHx8fDA%3D", desc: "Seoul combining tradition and modernity." },
   "Venice": { img: "https://cdn.pixabay.com/photo/2018/02/26/14/22/venice-3183168_1280.jpg", desc: "Venice’s romantic canals and gondolas." },

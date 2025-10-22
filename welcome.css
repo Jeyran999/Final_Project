@@ -1,144 +1,86 @@
-* {
+html, body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-body,
-html {
-  width: 100%;
   height: 100%;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  overflow: hidden;
+  font-family: 'Inter', sans-serif;
+  background-color: #1a0b30;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(https://i.pinimg.com/1200x/30/a4/a9/30a4a99d01feea27088d6fa609fb9c35.jpg);
+  background-image: url(/images/bg_welcome.jpg);
 }
-
-#starCanvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-}
-
-.welcome-box {
-  position: relative;
-  z-index: 2;
+.hero {
   text-align: center;
-  background: rgba(255, 255, 255, 0.12);
-  backdrop-filter: blur(1px);
-  border-radius: 25px;
-  padding: 60px;
-
-  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.2);
-  transition: transform 0.5s ease;
 }
 
-.welcome-box:hover {
-  transform: scale(1.03);
-}
-
-.welcome-box h1 {
-  font-family: "Urbanist", sans-serif;
-  letter-spacing: 2px;
-  font-size: 3rem;
-  margin-bottom: 20px;
-  background-color: rgb(101, 73, 203);
+.headline {
+  font-size: clamp(32px, 6vw, 64px);
+  font-weight: 800;
   color: white;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  background-color: rgb(112, 112, 200);
+  opacity: 0;
+  transform: translateY(40px) scale(0.8);
+  text-shadow: 0 0 10px rgba(195, 122, 255, 0.5);
+  animation: modernFadeIn 2s ease forwards;
+  margin-bottom: 24px;
 }
 
-.welcome-box p {
-  font-family: "Urbanist", sans-serif;
-  color: #73526f;
-  background-color: white;
-  font-size: 1.2rem;
-  margin-bottom: 40px;
-  opacity: 0.9;
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+.headline .accent {
+  background: white;
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradientMove 3s linear infinite;
 }
 
-.btn-explore {
+@keyframes modernFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(40px) scale(0.8);
+    filter: blur(8px) brightness(0.7);
+  }
+  60% {
+    opacity: 0.7;
+    transform: translateY(-10px) scale(1.05);
+    filter: blur(2px) brightness(1.2);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0) brightness(1);
+  }
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.cta {
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #9d5aff, #c87dff);
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cta:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(155, 123, 255, 0.4);
+}
+
+.cta .arrow {
   display: inline-block;
-  padding: 18px 50px;
-  font-size: 1.2rem;
-  color: rgb(126, 105, 202);
-  border-radius: 50px;
-  border: 2px solid rgb(101, 73, 203);
-  text-decoration: none;
-  font-weight: bold;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(20px);
-  transition: all 0.3s ease;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  margin-left: 8px;
+  transition: transform 0.2s ease;
 }
 
-.btn-explore:hover {
-  background: rgba(255, 255, 255, 0.25);
-  box-shadow: 0 15px 30px rgba(255, 255, 255, 0.25);
-  transform: scale(1.05);
-}
-
-/* ------- RESPONSIVE DESIGN ------- */
-
-@media screen and (max-width: 992px) {
-  .welcome-box {
-    padding: 45px;
-  }
-
-  .welcome-box h1 {
-    font-size: 2.3rem;
-  }
-
-  .welcome-box p {
-    font-size: 1.05rem;
-  }
-
-  .btn-explore {
-    padding: 15px 40px;
-    font-size: 1.05rem;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  body {
-    padding: 0 10px;
-  }
-
-  .welcome-box {
-    padding: 30px 20px;
-    border-radius: 18px;
-  }
-
-  .welcome-box h1 {
-    font-size: 1.8rem;
-  }
-
-  .welcome-box p {
-    font-size: 0.95rem;
-    margin-bottom: 25px;
-  }
-
-  .btn-explore {
-    padding: 12px 35px;
-    font-size: 0.95rem;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .welcome-box h1 {
-    font-size: 1.5rem;
-  }
-
-  .welcome-box p {
-    font-size: 0.9rem;
-  }
-
-  .btn-explore {
-    padding: 10px 28px;
-    font-size: 0.85rem;
-  }
+.cta:hover .arrow {
+  transform: translateX(6px);
 }

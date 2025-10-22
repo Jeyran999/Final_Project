@@ -72,25 +72,7 @@ header {
   width: 100%;
   object-fit: cover;
 }
-.home .controls {
-  padding: 1rem;
-  border-radius: 5rem;
-  background: rgba(0, 0, 0, 0.7);
-  position: relative;
-  top: 4rem;
-}
-.home .controls .vid-btn {
-  height: 1.2rem;
-  width: 1.2rem;
-  display: inline-block;
-  border-radius: 50%;
-  background: white;
-  cursor: pointer;
-  margin: 0 0.5rem;
-}
-.home .controls .vid-btn.active {
-  background: var(--purple);
-}
+
 
 @media (max-width: 1200px) {
   .home .content h3 {
