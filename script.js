@@ -112,10 +112,10 @@ const quizData = [
   {
     question: "What kind of weather do you prefer?",
     options: [
-      { text: "Cool & rainy", cities: ["London", "Moscow", "Berlin", "Amsterdam", "Toronto", "Prague"] },
+      { text: "Cool & rainy", cities: ["London", "Moscow", "Berlin", "Amsterdam", "Prague"] },
       { text: "Sunny & warm", cities: ["Dubai", "Lisbon", "Barcelona", "Rome", "Bangkok"] },
-      { text: "Moderate / Mild", cities: ["Paris", "Baku", "Istanbul", "Vienna", "Venice", "Singapore"] },
-      { text: "Cold / Snowy", cities: ["Seoul", "Beijing", "Tokyo"] }
+      { text: "Moderate / Mild", cities: ["Paris", "Baku", "Istanbul", "Vienna", "Venice"] },
+      { text: "Cold / Snowy", cities: ["Seoul", "Beijing", "Moscow"] }
     ]
   },
   {
@@ -132,7 +132,7 @@ const quizData = [
       { text: "Seafood", cities: ["Lisbon", "Tokyo", "Venice", "Barcelona", "Singapore"] },
       { text: "Street food", cities: ["Bangkok", "Istanbul", "Dubai", "Beijing"] },
       { text: "Gourmet & fine dining", cities: ["Paris", "Rome", "Vienna", "London"] },
-      { text: "Local traditional", cities: ["Baku", "Seoul", "Toronto", "Moscow"] }
+      { text: "Local traditional", cities: ["Baku", "Seoul", "Istanbul", "Rome"] }
     ]
   }
 ];

@@ -7,7 +7,9 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/images/bg_welcome.jpg);
+  background-image: url(/images/bg_project_new.png);
+  background-position: center;
+  background-size: cover;
 }
 .hero {
   text-align: center;
